@@ -17,7 +17,7 @@ class calc:
 a = 35
 b = 25
 var = calc(a,b)
-value = input("Enter the operation add/sub/multi/div = ")
+value = "add"
 if(value == "add"):
     var.add()
     print("the operation is = ",value)
