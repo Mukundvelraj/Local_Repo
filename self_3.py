@@ -14,8 +14,8 @@ class calc:
     def display(self):
         print("The final value ",self.c)
 
-a = int(input("Enter the a value = "))
-b = int(input("Enter the b value = "))
+a = 35
+b = 25
 var = calc(a,b)
 value = input("Enter the operation add/sub/multi/div = ")
 if(value == "add"):
